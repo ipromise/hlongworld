@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jquery焦点图片轮播滚动 </title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+</head>
+<body>
+<div class="headeline"></div>
+<!--演示内容开始-->
+<style type="text/css">
+/* slide-box */
+#slide-box{width:690px;position:relative;height:472px;}
+#slide-box .corner{clear:both;border-top:#333 1px solid;display:block;overflow:hidden;height:0;margin:0 1px;}
+#slide-box .slide-content{background:#333;padding:10px;}
+#slide-box .JQ-slide-content{position:absolute;}
+#slide-box .JQ-slide-nav a{display:block;z-index:99;width:37px;color:#b4b4b4;position:absolute;top:205px;height:65px;text-decoration:none;}
+#slide-box .JQ-slide-nav span{display:block;background:#4b4b4b;font:700 53px arial;width:37px;cursor:pointer;height:63px;text-align:center;}
+#slide-box .JQ-slide-nav .corner{border-color:#4b4b4b;}
+#slide-box .JQ-slide-nav .prev{left:-10px;}
+#slide-box .JQ-slide-nav .next{right:-10px;}
+#slide-box .wrap{overflow:hidden;width:670px;height:450px;position:relative;}
+#slide-box ul{width:10000px;}
+#slide-box li{float:left;width:340px;height:450px;}
+#slide-box li img{width:330px;height:450px;}
+#slide-box .JQ-slide-nav a:hover,#slide-box .JQ-slide-nav a:hover span{color:#f43d1e;}
+/* temp5 */
+#temp5{overflow:auto}
+#temp5 .JQ-content-box{width:300px;height:100px;min-height:25px;line-height:25px;border:#ccc 1px solid;overflow:hidden}
+#temp5 .JQ-slide-content{}
+#temp5 .JQ-slide-content li{height:25px;padding-left:10px;}
+</style>
+
+<script type="text/javascript" src="js/jq.slide.js"></script>
+<script type="text/javascript">
+$(function(){	
+    $("#temp4").Slide({
+            effect : "scroolLoop",
+            autoPlay:false,
+    speed : "normal",
+            timer : 3000,
+            steps:2
+    });	
+});
+</script>
+
+<div id="page">
+		<div id="slide-box">
+			<b class="corner"></b>
+			<div class="slide-content" id="temp4">
+				<div class="wrap">
+					<ul class="JQ-slide-content">
+						<li><a href="#" target="_blank"><IMG src="img/01.jpg" alt="jq22" width="330" height="450" /></a></li>
+						<li><a href="#" target="_blank"><IMG alt="jq22" src="img/02.jpg" width="330" height="450" /></a></li>
+						<li><a href="#" target="_blank"><IMG alt="jq22" src="img/03.jpg" width="330" height="450" /></a></li>
+						<li><a href="#" target="_blank"><IMG alt="jq22" src="img/04.jpg" width="330" height="450" /></a></li>
+						<li><a href="#" target="_blank"><IMG alt="jq22" src="img/05.jpg" width="330" height="450" /></a></li>
+						<li><a href="#" target="_blank"><IMG alt="jq22" src="img/06.jpg" width="330" height="450" /></a></li>
+					</ul>
+				</div>
+				<div class="JQ-slide-nav">
+					<a class="prev" href="#">
+						<b class="corner"></b>
+						<span>&#8249;</span>
+						<B class="corner"></B>
+					</a>
+					<a class="next" href="#">
+						<b class="corner"></b>
+						<span>&#8250;</span>
+						<B class="corner"></B>
+					</a>
+				</div>
+			</div>
+			<b class="corner"></b>
+		</div>
+
+</div>
+
+</body>
+</html>

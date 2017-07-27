@@ -1,0 +1,244 @@
+/* 帖子专题specialList*/
+.specialList .imgShowBox {
+	height:340px;
+	overflow:hidden
+}
+ .specialList .imgShowBox .imgTabShow {
+	float:right;
+	width:590px;
+	height:340px;
+	position:relative;
+	overflow:hidden
+}
+ .specialList .imgShowBox .imgTabShow .list ul {
+	width:9999%
+}
+ .specialList .imgShowBox .imgTabShow .list ul li {
+	float:left;
+	width:590px;
+	height:340px
+}
+ .specialList .imgShowBox .imgTabShow .list ul li img {
+	width:100%;
+	height:100%
+}
+ .specialList .imgShowBox .imgTabShow .list ul li .info {
+	position:absolute;
+	width:546px;
+	height:286px;
+	border:2px solid #FFF;
+	top:20px;
+	left:20px
+}
+ .specialList .imgShowBox .imgTabShow .list ul li .info .box {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:-11px;
+	width:180px;
+	margin:auto;
+	height:70px;
+	background-color:#FFF;
+	text-align:center;
+	padding:0 20px;
+	overflow:hidden
+}
+ .specialList .imgShowBox .imgTabShow .list ul li .info .box p {
+	font-size:16px;
+	color:#333;
+	margin-top:14px;
+	height:24px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+ .specialList .imgShowBox .imgTabShow .list ul li .info .box span {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+ .specialList .imgShowBox .imgTabShow .btn>ul {
+	display:inline-block
+}
+ .specialList .imgShowBox .imgTabShow .btn li {
+	color:#333;
+	float:left;
+	line-height:10px;
+	font-size:25px;
+	text-indent:-4px;
+	letter-spacing:-4px;
+	cursor:pointer
+}
+ .specialList .imgShowBox .imgTabShow .btn li.curr {
+	color:#fb7191
+}
+ .specialList .imgShowBox .imgTabShow .tabBtn {
+	position:absolute;
+	right:20px;
+	bottom:0;
+	z-index:3;
+	width:100%;
+	text-align:center
+}
+ .specialList .imgShowBox .imgTabShow .tabBtn dd {
+	color:#FFF;
+	float:left;
+	line-height:10px;
+	font-size:25px;
+	text-indent:-4px;
+	letter-spacing:-4px;
+	cursor:pointer
+}
+ .specialList .imgShowBox .imgTabShow .tabBtn dd.curr {
+	color:#fb7191
+}
+ .specialList .imgShowBox .imgList {
+	float:left;
+	width:590px;
+	overflow:hidden;
+	height:340px
+}
+ .specialList .imgShowBox .imgList .img01 {
+	float:left;
+	width:285px;
+	height:160px;
+	margin-bottom:20px
+}
+ .specialList .imgShowBox .imgList .img02 {
+	float:right;
+	width:285px;
+	height:340px
+}
+ .specialList .imgShowBox .imgList img {
+	width:100%;
+	height:100%
+}
+ .specialList .hotFaction {
+	height:140px;
+	background-color:#f4f4f4;
+	margin-bottom:20px;
+	padding-left:150px;
+	overflow:hidden
+}
+ .specialList .hotFaction .title {
+	background-color:#fb7191;
+	color:#FFF;
+	line-height:140px;
+	width:150px;
+	float:left;
+	margin-left:-150px;
+	font-size:22px;
+	text-align:center
+}
+ .specialList .hotFaction .list {
+	padding:0 54px;
+	overflow:hidden
+}
+ .specialList .hotFaction .list .aL, .specialList .hotFaction .list .aR {
+	background-color:#FFF;
+	height:28px;
+	width:28px;
+	border:1px solid #dedede;
+	text-align:center;
+	border-radius:50%;
+	margin-top:55px;
+	line-height:28px;
+	font-family:宋体;
+	font-size:18px;
+	font-weight:700;
+	color:#CCC;
+	cursor:pointer
+}
+ .specialList .hotFaction .list .aL:hover, .specialList .hotFaction .list .aR:hover {
+	background-color:#CCC;
+	color:#FFF
+}
+ .specialList .hotFaction .list .aL {
+	margin-left:-40px
+}
+ .specialList .hotFaction .list .aR {
+	margin-right:-40px
+}
+ .specialList .hotFaction .list .box {
+	margin-top:15px;
+	overflow:hidden;
+	height:110px;
+	overflow:hidden
+}
+ .specialList .hotFaction .list .box ul {
+	width:9999%
+}
+ .specialList .hotFaction .list .box ul li {
+	float:left;
+	width:185px;
+	height:70px;
+	background-color:#FFF;
+	border:1px solid #EEE;
+	border-radius:4px;
+	padding:19px;
+	overflow:hidden;
+	padding-left:99px;
+	margin-right:12px
+}
+ .specialList .hotFaction .list .box ul li .img {
+	width:70px;
+	height:70px;
+	float:left;
+	margin-left:-80px
+}
+ .specialList .hotFaction .list .box ul li .img img {
+	width:100%;
+	height:100%
+}
+ .specialList .hotFaction .list .box ul li .name {
+	font-size:16px;
+	color:#333;
+	line-height:1;
+	overflow:hidden
+}
+ .specialList .hotFaction .list .box ul li .name .addF {
+	width:43px;
+	height:22px;
+	border:1px solid #fb7191;
+	color:#fb7191;
+	background-color:#FFF;
+	border-radius:4px;
+	cursor:pointer;
+	padding:0
+}
+ .specialList .hotFaction .list .box ul li .name .addF:hover {
+	background-color:#fb7191;
+	color:#FFF
+}
+ .specialList .hotFaction .list .box ul li .data {
+	color:#999;
+	overflow:hidden;
+	line-height:30px;
+	padding-top:4px;
+	width:120%
+}
+ .specialList .hotFaction .list .box ul li .data dd {
+	float:left;
+	margin-right:20px
+}
+ .specialList .hotFaction .list .box ul li .data dd .icoF {
+	font-size:18px;
+	color:#CCC;
+	margin-right:4px
+}
+ .specialList .hotFaction .list .box ul li .news {
+	line-height:1;
+	height:16px;
+	overflow:hidden
+}
+ .specialList .hotFaction .list .box ul li .news .icoF {
+	font-size:20px;
+	color:#ff9cad;
+	display:inline-block;
+	text-indent:-7px;
+	vertical-align:-2px
+}
+ .specialList .hotFaction .list .box ul li .news a {
+	color:#666
+}
+/* 帖子专题结束*/

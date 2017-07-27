@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>jQuery微信侧边栏扫一扫网页特效 - 【科e互联】</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="kePublic">
+<div id="code"></div>
+<div id="code_img"></div>
+<a id="gotop" href="javascript:void(0)"><img src="images/fhjt.png" alt=""/></a>
+<script type="text/javascript">
+    function b(){
+        h = $(window).height();
+        t = $(document).scrollTop();
+        if(t > 0){
+            $('#gotop').fadeIn(200);
+        }else{
+            $('#gotop').fadeOut(200);
+        }
+    }
+    $(document).ready(function(e) {
+        b();
+        $('#gotop').click(function(){
+			$("body,html").animate({scrollTop:0},300);
+        });
+
+        $('#code').hover(function(){
+            $(this).attr('id','code_hover');
+            $('#code_img').show();
+            $('#code_img').addClass('a-fadeinL');
+        },function(){
+            $(this).attr('id','code');
+            $('#code_img').hide();
+        })
+
+    });
+
+    $(window).scroll(function(e){
+        b();
+    });
+</script>
+<!--效果html结束-->
+<div class="clear"></div>
+</div>
+</body>
+</html>

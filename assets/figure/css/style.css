@@ -1,0 +1,46 @@
+label{cursor:pointer;}
+img{vertical-align:middle;}
+table{empty-cells:show;border-collapse:collapse;border-spacing:0;}
+h1{font-size:16px;}h2,h3,h4{font-size:14px;}h5,h6{font-size:12px;}
+abbr,acronym{border:0;font-variant:normal}
+address,caption,cite,code,dfn,em,th,var,optgroup{font-style:normal;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+a,img{border:0;}
+a,a:visited{color:#5e5e5e; text-decoration:none;}
+a:hover{color:#4183C4;text-decoration:underline;}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}/* Hides from IE-mac \*/
+.clearfix{display:block;}/* End hide from IE-mac */
+/* shortcut */
+.shortcut{position:fixed;top:0;left:0;z-index:9999;width:100%;}
+.shortcut{height:28px;line-height:28px;font-size:12px;background:#EEEEEE;text-transform:uppercase;box-shadow:1px 0px 2px rgba(0,0,0,0.2);border-bottom:1px solid #DDDDDD;}
+.shortcut h1{font-size:14px;font-family:"微软雅黑","宋体";}
+.shortcut a,.shortcut h1{padding:0px 10px;letter-spacing:1px;color:#333;text-shadow:0px 1px 1px #fff;display:block;float:left;}
+.shortcut a:hover{background:#fff;}
+.shortcut span.right{float:right;}
+.shortcut span.right a{float:left;display:block;color:#ff6600;font-weight:800;}
+.headeline{height:40px;overflow:hidden;}
+.adv960x90{width:960px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:0 auto;}
+.adv728x90{width:728px;height:90px;overflow:hidden;border:solid 1px #E6E6E6;margin:0 auto;}
+/* slide-box */
+#slide-box{width:690px;position:relative;height:472px;}
+#slide-box .corner{clear:both;border-top:#333 1px solid;display:block;overflow:hidden;height:0;margin:0 1px;}
+#slide-box .slide-content{background:#333;padding:10px;}
+#slide-box .JQ-slide-content{position:absolute;}
+#slide-box .JQ-slide-nav a{display:block;z-index:99;width:37px;color:#b4b4b4;position:absolute;top:205px;height:65px;text-decoration:none;}
+#slide-box .JQ-slide-nav span{display:block;background:#4b4b4b;font:700 53px arial;width:37px;cursor:pointer;height:63px;text-align:center;}
+#slide-box .JQ-slide-nav .corner{border-color:#4b4b4b;}
+#slide-box .JQ-slide-nav .prev{left:-10px;}
+#slide-box .JQ-slide-nav .next{right:-10px;}
+#slide-box .wrap{overflow:hidden;width:670px;height:450px;position:relative;}
+#slide-box ul{width:10000px;}
+#slide-box li{float:left;width:340px;height:450px;}
+#slide-box li img{width:330px;height:450px;}
+#slide-box .JQ-slide-nav a:hover,#slide-box .JQ-slide-nav a:hover span{color:#f43d1e;}
+/* temp5 */
+#temp5{overflow:auto}
+#temp5 .JQ-content-box{width:300px;height:100px;min-height:25px;line-height:25px;border:#ccc 1px solid;overflow:hidden}
+#temp5 .JQ-slide-content{}
+#temp5 .JQ-slide-content li{height:25px;padding-left:10px;}

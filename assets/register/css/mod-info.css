@@ -1,0 +1,105 @@
+body {
+  background: #f0f0f0;
+}
+.form-wrap {
+  width: 437px;
+  height: 360px;
+  margin: 50px auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.form-wrap .errormsg {
+  position: absolute;
+  left: 64px;
+  top: 95px;
+  color: red;
+}
+.form-wrap .title {
+  height: 70px;
+  line-height: 70px;
+  border-bottom: solid 1px #eeecec;
+  margin: 0 25px 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #5a5a5a;
+}
+.form-wrap .login {
+  padding: 0 64px;
+}
+.form-wrap .login .formitem-wrap {
+  border: solid 1px #cfcfcf;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.form-wrap .login .formitem-wrap input {
+  border: none;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 34px;
+}
+.form-wrap .login .formitem-wrap .border-bottom {
+  border-bottom: solid 1px #e7e7e7;
+}
+.form-wrap .login .formitem-wrap .hasbg {
+  position: relative;
+}
+.form-wrap .login .formitem-wrap .hasbg span {
+  width: 17px;
+  height: 46px;
+  left: 12px;
+  top: 0;
+  background: url(../images/registerbg.png) 0 15px no-repeat;
+  position: absolute;
+}
+.form-wrap .login .formitem-wrap .hasbg span.iconlock {
+  background-position: 0 -26px;
+}
+.form-wrap .login .formitem-wrap .hasbg .codetext {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 106px;
+  height: 44px;
+}
+.form-wrap .login .formitem input[type="checkbox"] {
+  display: none;
+}
+.form-wrap .login .formitem .input_checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background: url(../images/checkbg.png) no-repeat 0 0;
+  background-size: 20px;
+  vertical-align: middle;
+}
+.form-wrap .login .formitem input[type="checkbox"]:checked + .input_checkbox {
+  display: inline-block;
+  cursor: pointer;
+  background: url(../images/checked.png) no-repeat 0 0;
+  background-size: 20px;
+  vertical-align: middle;
+}
+.form-wrap .login .text-box {
+  width: 60%;
+  padding-right: 10px;
+  position: relative;
+}
+.form-wrap .login .text-box input {
+  padding-left: 34px;
+}
+.form-wrap .login .text-box span {
+  width: 17px;
+  height: 46px;
+  left: 12px;
+  top: 0;
+  background: url(../images/registerbg.png) 0 -66px no-repeat;
+  position: absolute;
+}
+.form-wrap .login .code-box {
+  width: 40%;
+}

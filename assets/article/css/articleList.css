@@ -1,0 +1,881 @@
+.publishedFrom {
+	overflow: visible
+}
+
+.publishedFrom ul {
+	overflow: visible
+}
+
+.publishedFrom li {
+	margin-bottom: 10px;
+	overflow: visible;
+	font-size: 0;
+	position: relative
+}
+
+.publishedFrom li .verificationCode {
+	line-height: 34px;
+	color: #999;
+	font-size: 14px
+}
+
+.publishedFrom li .verificationCode .code {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: -10px;
+	background-color: #EEE
+}
+
+.publishedFrom li .verificationCode input {
+	width: 98px;
+	height: 32px;
+	border: 1px solid #EEE;
+	text-indent: 10px
+}
+
+.publishedFrom li .upload {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	bottom: 6px;
+	left: 133px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer
+}
+
+.publishedFrom li .titleInput,.publishedFrom li .contInput {
+	background-color: #FFF;
+	border: 1px solid #EEE;
+	border-radius: 4px;
+	padding: 10px 20px;
+	width: 712px
+}
+
+.publishedFrom li .contInput {
+	border-bottom: 0;
+	border-radius: 4px 4px 0 0;
+	height: 216px;
+	resize: none
+}
+
+.publishedFrom li .addBtn {
+	background-color: #f4f4f4;
+	border: 1px solid #EEE;
+	border-top: 0;
+	line-height: 49px;
+	overflow: hidden;
+	width: 712px;
+	padding: 0 20px;
+	vertical-align: top;
+	font-size: 14px;
+	color: #666
+}
+
+.publishedFrom li .addBtn .list dd {
+	float: left;
+	margin-right: 30px;
+	cursor: pointer
+}
+
+.publishedFrom li .addBtn .list dd .icoF {
+	color: #CCC;
+	font-size: 18px;
+	margin-right: 10px
+}
+
+.publishedFrom li .addBtn .fr i {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 14px;
+	text-align: center;
+	border: 1px solid #CCC;
+	color: #CCC;
+	border-radius: 2px;
+	vertical-align: 1px;
+	margin-right: 9px
+}
+
+.publishedFrom li .addBtn .fr .btnFloor {
+	cursor: pointer
+}
+
+.publishedFrom li .addBtn .fr .btnFloor:hover i {
+	color: #fb7191;
+	border-color: #fb7191
+}
+
+.publishedFrom li .btn {
+	width: 120px;
+	height: 40px;
+	background-color: #fb7191;
+	color: #FFF;
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer
+}
+
+.publishedFrom .browBox {
+	position: absolute;
+	bottom: 0;
+	left: 12px;
+	z-index: 100;
+	margin-bottom: -205px
+}
+
+.publishedFrom .browBox .upTool {
+	width: 15px;
+	height: 8px;
+	_font-size: 0;
+	top: -7px;
+	left: 5px;
+	position: absolute
+}
+
+.publishedFrom .browBox .listOut {
+	padding: 5px;
+	background: #fbfbfb;
+	width: 290px;
+	border: #d1d1d1 1px solid
+}
+
+.publishedFrom .browBox .browList {
+	border: #e3e3e3 1px solid;
+	border-top: 0;
+	border-left: 0;
+	width: 288px;
+	height: 180px;
+	_overflow: hidden
+}
+
+.publishedFrom .browBox .browList li {
+	float: left;
+	padding: 5px;
+	border-left: #e3e3e3 1px solid;
+	border-top: #e3e3e3 1px solid;
+	background-color: #FFF;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	margin-bottom: 0
+}
+
+.publishedFrom .browBox .browList li span {
+	height: 25px;
+	width: 25px;
+	display: block
+}
+
+.publishedFrom .browBox .dot {
+	margin-top: 10px;
+	text-align: center
+}
+
+.publishedFrom .browBox .dot li {
+	display: inline-block;
+	height: 11px;
+	width: 11px;
+	border-radius: 6px;
+	background-color: #ddd;
+	cursor: pointer;
+	margin: 0 5px;
+	_display: inline;
+	margin-bottom: 0!important;
+	zoom: 1
+}
+
+.publishedFrom .browBox .dot li.on {
+	background-color: #fb7191
+}
+
+.publishedFrom .linkBox {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-top: 0
+}
+
+.publishedFrom .linkBox .main p {
+	line-height: 30px;
+	color: #999;
+	font-size: 14px
+}
+
+.publishedFrom .linkBox .main input {
+	height: 32px;
+	padding: 0 15px;
+	border-radius: 2px;
+	border: 1px solid #eee;
+	width: 680px
+}
+
+.publishedFrom .linkBox .main input:hover,.publishedFrom .linkBox .main input:focus {
+	color: #a9a9a9;
+	border-color: #ccc
+}
+
+.publishedFrom .linkBox .main .btn01 {
+	text-align: right;
+	margin-top: 20px
+}
+
+.publishedFrom .linkBox .main .btn01 input.btn02 {
+	border: 0;
+	width: 70px;
+	line-height: 34px;
+	background-color: #fb7191;
+	color: #fff
+}
+/*!css/factionInfo.scss*/
+.cGreen {
+	color: #52dcd3
+}
+
+.cRed {
+	color: #fb7191
+}
+
+ .shareIcon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/shareicons.png);
+	background-repeat: no-repeat
+}
+
+ .shareIcon.qzone {
+	background-position: 0 0
+}
+
+ .shareIcon.weibo {
+	background-position: -29px 0
+}
+
+ .shareIcon.weixin {
+	background-position: -58px 0
+}
+
+ .shareIcon.baidu {
+	background-position: -87px 0
+}
+
+ .shareIcon.douban {
+	background-position: -116px 0
+}
+
+ .shareIcon.qq {
+	background-position: -145px 0
+}
+
+ .factionInfo .contL .articleCont .operation dl i {
+	background-image: url(../img/lmbmainimg.png);
+	background-repeat: no-repeat
+}
+
+ .factionInfo .contL .articleCont .operation dl i {
+	background-position: -207px -73px
+}
+
+ .factionInfo .mainContBox {
+	padding-top: 0
+}
+
+ .factionInfo .contL .articleCont .title {
+	font-size: 26px;
+	color: #333;
+	line-height: 82px;
+	border-bottom: 1px solid #EEE
+}
+
+ .factionInfo .contL .articleCont .title img {
+	vertical-align: middle
+}
+
+ .factionInfo .contL .articleCont .userInfo {
+	padding: 20px 0;
+	overflow: hidden
+}
+
+ .factionInfo .contL .articleCont .userInfo .portrait {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	overflow: hidden
+}
+
+ .factionInfo .contL .articleCont .userInfo .portrait img {
+	width: 100%;
+	height: 100%
+}
+
+ .factionInfo .contL .articleCont .userInfo .name {
+	float: left
+}
+
+ .factionInfo .contL .articleCont .userInfo .name p {
+	font-size: 16px;
+	margin-top: 3px
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag {
+	float: right
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd {
+	float: left;
+	line-height: 20px;
+	margin-left: 10px;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 0 10px
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle1 {
+	border-color: #9cb2ee;
+	color: #9cb2ee
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle2 {
+	border-color: #f8b094;
+	color: #f8b094
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle3 {
+	border-color: #8cc48c;
+	color: #8cc48c
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle4 {
+	border-color: #ff9aab;
+	color: #ff9aab
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle5 {
+	border-color: #64cdc5;
+	color: #64cdc5
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle6 {
+	border-color: #73cddd;
+	color: #73cddd
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.colorStyle7 {
+	border-color: #efc34c;
+	color: #efc34c
+}
+
+ .factionInfo .contL .articleCont .userInfo .tag dd.lv {
+	background-color: #b2e0e7
+}
+
+ .factionInfo .contL .articleCont .cont {
+	font-size: 14px;
+	line-height: 22px;
+	color: #666
+}
+
+ .factionInfo .contL .articleCont .cont img {
+	max-width: 100%
+}
+
+ .factionInfo .contL .articleCont .cont img.bigPic {
+	margin: 10px auto
+}
+
+ .factionInfo .contL .articleCont .info {
+	color: #999
+}
+
+ .factionInfo .contL .articleCont .operation {
+	line-height: 48px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #999;
+	margin: 16px 0 30px
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li {
+	display: inline-block;
+	margin-right: 5px;
+	height: 22px;
+	width: 22px;
+	line-height: 22px;
+	padding: 0;
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	text-align: center
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li>a {
+	margin: 0;
+	font-size: 16px;
+	color: #ccc;
+	display: block;
+	line-height: 22px;
+	border-radius: 3px
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a {
+	color: #fff
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_qzone {
+	background-color: #73d2dd
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_tsina {
+	background-color: #ff9173
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_weixin {
+	background-color: #6bd185
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_baidu {
+	background-color: #7387dd
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_douban {
+	background-color: #61a64c
+}
+
+ .factionInfo .contL .articleCont .operation .lmShareBar>li:hover>a.bds_qq {
+	background-color: #73acdd
+}
+
+ .factionInfo .contL .articleCont .operation li {
+	border: 1px solid #EEE;
+	border-right: 0;
+	float: left;
+	padding: 0 20px
+}
+
+ .factionInfo .contL .articleCont .operation li .icoF {
+	margin: 0 6px;
+	color: #cecece;
+	font-size: 17px;
+	display: inline-block;
+	line-height: 1;
+	vertical-align: 1px
+}
+
+ .factionInfo .contL .articleCont .operation li .icoF.star:before {
+	content: "\e60b";
+	cursor: pointer
+}
+
+ .factionInfo .contL .articleCont .operation li.curr {
+	color: #fb7191
+}
+
+ .factionInfo .contL .articleCont .operation li.curr .star:before {
+	content: "\e60a";
+	color: #fb7191
+}
+
+ .factionInfo .contL .articleCont .operation dl {
+	border: 1px solid #EEE;
+	padding: 12px 15px 12px 20px;
+	height: 24px;
+	float: left;
+	position: relative
+}
+
+ .factionInfo .contL .articleCont .operation dl i {
+	width: 6px;
+	height: 10px;
+	position: absolute;
+	top: 19px;
+	left: -6px
+}
+
+ .factionInfo .contL .articleCont .operation dl dd {
+	float: left;
+	margin-right: 5px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border: 1px solid #EEE;
+	border-radius: 3px
+}
+
+ .factionInfo .contL .articleCont .operation dl dd .icoF {
+	font-size: 16px;
+	border-radius: 3px
+}
+
+ .factionInfo .contL .articleCont .operation dl dd a {
+	color: #CCC;
+	display: block
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a {
+	color: #FFF
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_qzone {
+	background-color: #73d2dd
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_tsina {
+	background-color: #ff9173
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_weixin {
+	background-color: #6bd185
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_baidu {
+	background-color: #7387dd
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_douban {
+	background-color: #61a64c
+}
+
+ .factionInfo .contL .articleCont .operation dl dd:hover a.bds_tqq {
+	background-color: #73acdd
+}
+
+ .factionInfo .contL .articleCont .pl20 {
+	height: 16px;
+	display: block;
+	margin-top: 15px;
+	background: url(../img/bangtbg.png) no-repeat 0 -275px;
+	padding-left: 20px
+}
+
+ .factionInfo .contL .articleCont .pl20 a {
+	color: #f60
+}
+
+ .factionInfo .contL .articleCont .pl20 .changeLink {
+	cursor: pointer;
+	color: #333;
+	padding-left: 20px
+}
+
+ .factionInfo .contL .writeForm {
+	background-color: #fbfbfb;
+	padding-bottom: 10px;
+	border: 1px solid #eee;
+	padding: 20px
+}
+
+ .factionInfo .contL .writeForm .publishedFrom li .addBtn {
+	width: 705px
+}
+
+ .factionInfo .contL .writeForm .publishedFrom li .contInput {
+	height: 130px;
+	width: 705px
+}
+
+ .factionInfo .contL .writeForm .publishedFrom li.postOpt {
+	margin-bottom: 0
+}
+
+ .factionInfo .contL .writeForm .publishedFrom .verificationCode {
+	line-height: 34px;
+	color: #999;
+	font-size: 14px
+}
+
+ .factionInfo .contL .writeForm .publishedFrom .verificationCode .code {
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: -10px;
+	background-color: #EEE
+}
+
+ .factionInfo .contL .writeForm .publishedFrom .verificationCode input {
+	width: 98px;
+	height: 30px;
+	border: 1px solid #EEE;
+	text-indent: 10px;
+	vertical-align: middle
+}
+
+ .factionInfo .contL .writeForm .publishedFrom .verificationCode img {
+	vertical-align: middle;
+	margin: 0 10px
+}
+
+ .factionInfo .contL .adBox {
+	width: 790px;
+	height: 120px;
+	margin: 40px 0
+}
+
+ .factionInfo .contL .adBox img {
+	width: 100%;
+	height: 100%
+}
+
+ .factionInfo .contL .commentsList .mainTitle {
+	overflow: hidden;
+	line-height: 24px
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn {
+	font-size: 14px
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn dd {
+	padding: 0 10px;
+	border-radius: 4px;
+	margin-right: 10px;
+	float: left;
+	color: #666
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn dd.curr {
+	background-color: #CCC;
+	color: #FFF
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn dd.curr a {
+	color: #FFF
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn dd a {
+	color: #666
+}
+
+ .factionInfo .contL .commentsList .mainTitle .tabBtn .line {
+	height: 10px;
+	width: 1px;
+	background-color: #DDD;
+	margin-right: 10px;
+	float: left;
+	margin-top: 6px
+}
+
+ .factionInfo .contL .commentsList .list li {
+	padding: 20px 0;
+	border-bottom: 1px solid #EEE;
+	overflow: hidden
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo {
+	overflow: hidden
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .portrait {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	overflow: hidden
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .portrait img {
+	width: 100%;
+	height: 100%
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .name {
+	float: left
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .name p {
+	font-size: 16px;
+	margin-top: 3px
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag {
+	float: right
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd {
+	float: left;
+	line-height: 20px;
+	margin-left: 10px;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 0 10px
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle1 {
+	background-color: #fdc3ab
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle2 {
+	background-color: #e9c2d6
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle3 {
+	background-color: #fed770
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle4 {
+	background-color: #ff9aab
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle5 {
+	background-color: #64cdc5
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle6 {
+	background-color: #73cddd
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.colorStyle7 {
+	background-color: #efc34c
+}
+
+ .factionInfo .contL .commentsList .list li .userInfo .tag dd.lv {
+	background-color: #b2e0e7
+}
+
+ .factionInfo .contL .commentsList .list li .reference {
+	margin-top: 8px;
+	margin-left: 60px;
+	margin-bottom: 15px;
+	border-left: 5px solid #EEE;
+	padding-left: 20px;
+	padding-right: 40px;
+	padding-bottom: 8px;
+	font-size: 12px;
+	position: relative
+}
+
+ .factionInfo .contL .commentsList .list li .reference em.icoF {
+	color: #CCC;
+	margin-right: 10px;
+	font-size: 20px;
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+ .factionInfo .contL .commentsList .list li .reference .user {
+	line-height: 22px;
+	color: #999;
+	padding-bottom: 6px
+}
+
+ .factionInfo .contL .commentsList .list li .reference .user .icoF {
+	color: #CCC;
+	margin-right: 10px;
+	font-size: 20px
+}
+
+ .factionInfo .contL .commentsList .list li .text {
+	padding-left: 60px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666
+}
+
+ .factionInfo .contL .commentsList .list li .info {
+	color: #999
+}
+
+ .factionInfo .contL .commentsList .list li .info a {
+	color: #999
+}
+
+ .factionInfo .contL .commentsList .list li .info a:hover {
+	color: #fff;
+	background-color: #ccc
+}
+
+ .factionInfo .contL .moreRelate {
+	padding: 30px 40px;
+	background-color: #fbfbfb
+}
+
+ .factionInfo .contL .moreRelate .title {
+	height: 40px;
+	margin-left: -40px;
+	position: relative
+}
+
+ .factionInfo .contL .moreRelate .title label {
+	position: absolute;
+	padding: 0 45px 0 19px;
+	line-height: 40px;
+	background-color: #fb7191;
+	color: #fff;
+	font-size: 16px;
+	z-index: 3
+}
+
+ .factionInfo .contL .moreRelate .title label b {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #fbfbfb;
+	position: absolute;
+	right: 0
+}
+
+ .factionInfo .contL .moreRelate .title i {
+	display: block;
+	position: absolute;
+	height: 1px;
+	background-color: #fb7191;
+	top: 20px;
+	width: 650px;
+	right: 0
+}
+
+ .factionInfo .contL .moreRelate .relateList {
+	margin-top: 30px;
+	overflow: hidden
+}
+
+ .factionInfo .contL .moreRelate .relateList>li {
+	float: left;
+	border-bottom: 1px dashed #eee;
+	line-height: 29px;
+	width: 260px
+}
+
+ .factionInfo .contL .moreRelate .relateList>li a {
+	color: #666;
+	font-size: 14px
+}
+
+ .factionInfo .contL .moreRelate .relateList>li.n1, .factionInfo .contL .moreRelate .relateList>li:nth-child(odd) {
+	margin-right: 150px
+}
+
+ .factionInfo .contL .moreRelate .relateList>li.n2, .factionInfo .contL .moreRelate .relateList>li:nth-child(even) {
+	margin-right: 40px
+}
+
+ .factionInfo .contL .moreRelate .relateList>li.last1, .factionInfo .contL .moreRelate .relateList>li.last2, .factionInfo .contL .moreRelate .relateList>li:nth-last-child(1), .factionInfo .contL .moreRelate .relateList>li:nth-last-child(2) {
+	border-bottom: 0
+}
+
+ .adBoxR {
+	width: 366px;
+	height: 200px;
+	margin: 40px 0
+}
+
+ .adBoxR img {
+	width: 100%;
+	height: 100%
+}
+/*底部开始*/
+.footer{ width:100%; background:#FFF; border-top:#E9E9E9 1px solid; margin-top:15px;}
+.footerIn{width:980px; margin:0 auto; padding-bottom:20px;}
+.footNav{height:40px;text-align:center; padding-top:20px;}
+.footNav a{margin:0 20px; color:#999;}
+.footNav a:hover{color:#ff95b0;}
+.copyright{text-align:center; color:#999; line-height:24px;}
+/*底部结束*/

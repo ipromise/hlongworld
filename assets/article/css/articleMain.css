@@ -1,0 +1,877 @@
+@charset "UTF-8";
+html {
+	overflow: auto;
+	min-width: 1200px
+}
+body {
+	padding:0;
+	margin:0;
+	font:12px/1.5 微软雅黑;
+	color:#474747;
+	text-align:center;
+	background-color:#FFF;
+	overflow-x:hidden;
+	word-break:break-all
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p,buttom {
+	padding:0;
+	margin:0;
+	font-weight:400
+}
+ol,ul {
+	list-style:none
+}
+li {
+	list-style-type:none
+}
+img {
+	vertical-align:top;
+	border:0
+}
+input,button,textarea {
+	font-family:微软雅黑;
+	outline:0
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:inherit;
+	font-weight:400
+}
+address,cite,code,em,th,i {
+	font-weight:400;
+	font-style:normal
+}
+a {
+	color:#474747;
+	text-decoration:none
+}
+a:visited {
+	text-decoration:none
+}
+a:hover {
+	/*color:#fb7191;*/
+	text-decoration:none
+}
+a:active {
+	color:#474747
+}
+.cBlack,.cBlack:visited {
+	color:#3d3d3d
+}
+.cRed,.cRed:visited {
+	color:#af0101
+}
+.cBlue,.cBlue:visited {
+	color:#2b81c9
+}
+.cGreen,.cGreen:visited {
+	color:#17c17b
+}
+.cGray,.cGray:visited {
+	color:#999
+}
+.cDGray,.cDGray:visited {
+	color:#989898
+}
+.cOrange,.cOrange:visited {
+	color:#fc9c6f
+}
+.cYellow,.cYellow:visited {
+	color:#ffedba
+}
+.fB {
+	font-weight:700
+}
+.f12 {
+	font-size:12px
+}
+.f14 {
+	font-size:14px
+}
+.f16 {
+	font-size:16px
+}
+.f18 {
+	font-size:18px
+}
+.f20 {
+	font-size:20px
+}
+.f24 {
+	font-size:24px
+}
+.w {
+	width:1200px;
+	clear:both;
+	margin:auto;
+	text-align:left
+}
+.mt10 {
+	margin-top:10px
+}
+.mb10 {
+	margin-bottom:10px
+}
+.mb15 {
+	margin-bottom:15px
+}
+.ml10 {
+	margin-left:10px
+}
+.mt15 {
+	margin-top:15px
+}
+.mt20 {
+	margin-top:20px
+}
+.mb20 {
+	margin-bottom:20px
+}
+.mt25 {
+	margin-top:25px
+}
+.mt30 {
+	margin-top:30px
+}
+.mb30 {
+	margin-bottom:30px
+}
+.mt40 {
+	margin-top:40px
+}
+.mt50 {
+	margin-top:50px
+}
+.mt60 {
+	margin-top:60px
+}
+.ml15 {
+	margin-left:15px
+}
+.clear {
+	clear:both;
+	font:0/0 arial;
+	height:0;
+	width:0
+}
+.poR {
+	position:relative
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.ovH {
+	overflow:hidden
+}
+.clearfix:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0
+}
+.clearfix {
+	display:inline-table
+}
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}
+.hide {
+	display:none
+}
+.ar {
+	text-align:right
+}
+.ac {
+	text-align:center
+}
+a.btn {
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	border-radius:5px;
+	display:inline;
+	zoom:1
+}
+.inline-block {
+	display:inline-block
+}
+.pointer {
+	cursor:pointer
+}
+.appQRCode {
+	width:100px;
+	text-align:center
+}
+.cRed {
+	color:#fb7191
+}
+.icoF {
+	font-family:iconfont!important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-stroke-width:.2px;
+	-moz-osx-font-smoothing:grayscale
+}
+.cGreen {
+	color:#52dcd3
+}
+.cRed {
+	color:#fb7191
+}
+ .gestateVideoList .hotVideoList ul li .info .operation .tag i {
+	background-position:-285px -40px
+}
+ .factionList .factionListHotCont .contR.specialReport .img .title {
+	background-position:-172px top
+}
+ .mainContBox {
+	background-image:url(../img/linespacing.png);
+	background-repeat:repeat-y;
+	background-position:810px top;
+	padding-top:30px
+}
+ .mainContBox .contL .postList .selectBtn i {
+	background-position:-199px -73px
+}
+ .mainContBox .contL .postList .mainTitle .tabList em {
+	background-image:url(../img/shadebg.png)
+}
+ .factionList .factionListHotCont .contR.specialReport {
+	background-image:url(../img/biaslinebg.png)
+}
+ .mainContBox .contL {
+	float:left;
+	width:790px
+}
+ .mainContBox .contL .essencePost .mainTitle {
+	padding-bottom:20px
+}
+ .mainContBox .contL .essencePost .mainTitle h2 {
+	border-left:5px solid #fb7191;
+	line-height:22px;
+	font-size:22px;
+	padding-left:20px;
+        float:left;
+}
+ .mainContBox .contL .essencePost .list {
+	background-color:#fbfbfb;
+	border:1px solid #EEE;
+	padding-left:19px;
+	padding-top:19px;
+	overflow:hidden
+}
+ .mainContBox .contL .essencePost .list ul {
+	width:110%
+}
+ .mainContBox .contL .essencePost .list ul li {
+	float:left;
+	width:360px;
+	margin-bottom:19px;
+	margin-right:20px
+}
+ .mainContBox .contL .essencePost .list ul li .img {
+	float:left;
+	margin-right:20px;
+	width:50px;
+	height:50px
+}
+ .mainContBox .contL .essencePost .list ul li .img img {
+	width:100%;
+	height:100%
+}
+ .mainContBox .contL .essencePost .list ul li .title {
+	line-height:28px;
+	font-size:16px;
+	color:#444;
+	height:28px;
+	overflow:hidden
+}
+ .mainContBox .contL .essencePost .list ul li .info {
+	color:#999
+}
+ .mainContBox .contL .essencePost .list ul li .info a, .mainContBox .contL .essencePost .list ul li .info a:hover {
+	color:#999
+}
+ .mainContBox .contL .postList .mainTitle {
+	height:49px;
+	border-bottom:1px solid #eee;
+	position:relative;
+	padding-right:60px
+}
+ .mainContBox .contL .postList .mainTitle .tabList {
+	line-height:28px;
+	overflow:hidden;
+	position:relative
+}
+ .mainContBox .contL .postList .mainTitle .tabList .carousel {
+	position:relative;
+	width:9999%
+}
+ .mainContBox .contL .postList .mainTitle .tabList .carousel ul {
+	width:auto;
+	display:inline-block
+}
+ .mainContBox .contL .postList .mainTitle .tabList ul {
+	width:99999%
+}
+ .mainContBox .contL .postList .mainTitle .tabList ul li {
+	float:left;
+	padding:0 10px;
+	font-size:14px;
+	color:#666;
+	border:1px solid #DDD;
+	border-radius:3px;
+	margin-right:10px;
+	color:#666;
+	cursor:pointer
+}
+ .mainContBox .contL .postList .mainTitle .tabList ul li a {
+	color:#666
+}
+ .mainContBox .contL .postList .mainTitle .tabList ul li.curr {
+	background-color:#fb7191;
+	border-color:#fb7191;
+	color:#FFF
+}
+ .mainContBox .contL .postList .mainTitle .tabList ul li.curr a {
+	color:#FFF
+}
+ .mainContBox .contL .postList .mainTitle .tabList em {
+	width:41px;
+	height:30px;
+	position:absolute;
+	right:0;
+	top:0;
+	pointer-events:none;
+	z-index:2
+}
+ .mainContBox .contL .postList .mainTitle .tabArrows {
+	position:absolute;
+	right:0;
+	top:0;
+	line-height:28px;
+	border:1px solid #dcdcdc;
+	border-radius:6px;
+	overflow:hidden
+}
+ .mainContBox .contL .postList .mainTitle .tabArrows dd {
+	float:left;
+	font-family:宋体;
+	width:28px;
+	text-align:center;
+	color:silver;
+	cursor:pointer;
+	font-size:12px;
+	border-right:1px solid #dcdcdc
+}
+ .mainContBox .contL .postList .mainTitle .tabArrows dd:last-child {
+	border:0
+}
+ .mainContBox .contL .postList .mainTitle .tabArrows dd:hover {
+	background-color:#dcdcdc;
+	color:#FFF
+}
+ .mainContBox .contL .postList .selectBtnBox {
+	position:relative;
+	height:30px
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn {
+	border:1px solid #EEE;
+	padding:0;
+	margin-top:-1px;
+	line-height:28px;
+	padding:1px;
+	width:133px;
+	text-align:center;
+	color:#999;
+	background-color:#FFF;
+	position:absolute;
+	right:0;
+	top:0
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn i {
+	width:8px;
+	height:4px;
+	position:absolute;
+	right:10px;
+	top:13px;
+	font-size:0
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn:hover dd {
+	display:block
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn dd {
+	display:none;
+	cursor:pointer
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn dd.curr {
+	display:block
+}
+ .mainContBox .contL .postList .selectBtnBox .selectBtn dd a, .mainContBox .contL .postList .selectBtnBox .selectBtn dd a:hover {
+	color:#999
+}
+ .mainContBox .contL .postList .tabList li {
+	padding:20px 0;
+	border-bottom:1px solid #EEE
+}
+ .mainContBox .contL .postList .tabList li:last-child {
+	border:0
+}
+ .mainContBox .contL .postList .tabList li .user {
+	height:60px
+}
+ .mainContBox .contL .postList .tabList li .user .info .portrait {
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	float:left;
+	margin-right:20px;
+	border-radius:50%
+}
+ .mainContBox .contL .postList .tabList li .user .info .portrait img {
+	width:100%;
+	height:100%
+}
+ .mainContBox .contL .postList .tabList li .user .info .name {
+	float:left;
+	font-size:14px;
+	color:#999;
+	margin-right:20px
+}
+ .mainContBox .contL .postList .tabList li .user .info .name em {
+	font-size:16px;
+	color:#666;
+	margin-top:6px;
+	display:inline-block
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn {
+	height:30px;
+	border:1px solid #fb7191;
+	background-color:#fff;
+	color:#fb7191;
+	border-radius:3px;
+	cursor:pointer;
+	margin-top:10px;
+	line-height:30px;
+	padding:0 20px
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followadd {
+	background-color:transparent;
+	color:#fb7191
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followadd:hover .join-red {
+	color:#fb7191;
+	background-image:url(../img/join-red.png)
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel {
+	background-color:#fb7191;
+	color:#fff
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel .al-layout {
+	display:block
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel .cancel-layout {
+	display:none
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel:hover {
+	color:#999;
+	border:1px solid #bbb;
+	background-color:#fbfbfb
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel:hover .al-layout {
+	display:none
+}
+ .mainContBox .contL .postList .tabList li .user .info .btn.followCancel:hover .cancel-layout {
+	display:block
+}
+ .mainContBox .contL .postList .tabList li .user .time {
+	margin-top:8px;
+	font-size:14px;
+	color:#999
+}
+ .mainContBox .contL .postList .tabList li .article {
+	overflow:hidden;
+	font-size:14px;
+	color:#999
+}
+ .mainContBox .contL .postList .tabList li .article .img {
+	float:right;
+	margin-left:20px;
+	max-width:240px
+}
+ .mainContBox .contL .postList .tabList li .article .img img {
+	max-width:100%
+}
+ .mainContBox .contL .postList .tabList li .article .title {
+	line-height:30px;
+	font-size:16px;
+	color:#333;
+	margin:20px 0 10px
+}
+ .mainContBox .contL .postList .tabList li .article .title a {
+	color:#333
+}
+ .mainContBox .contL .postList .tabList li .article p {
+	line-height:24px;
+	height:48px;
+	overflow:hidden;
+	color:#999
+}
+ .mainContBox .contL .postList .tabList li .article p a, .mainContBox .contL .postList .tabList li .article p a:hover {
+	color:#999
+}
+ .mainContBox .contL .postList .tabList li .article .operation {
+	font-size:16px;
+	color:#999;
+	overflow:hidden;
+	margin-top:19px
+}
+ .mainContBox .contL .postList .tabList li .article .operation dd {
+	float:left;
+	margin-right:30px;
+	line-height:1;
+	cursor:pointer
+}
+ .mainContBox .contL .postList .tabList li .article .operation dd .icoF {
+	margin-right:6px;
+	color:#cecece;
+	font-size:17px;
+	display:inline-block;
+	line-height:1;
+	vertical-align:1px
+}
+ .mainContBox .contL .postList .tabList li .article .operation dd .icoF.star:before {
+	content:"\e60b"
+}
+ .mainContBox .contL .postList .tabList li .article .operation dd.curr {
+	color:#fb7191
+}
+ .mainContBox .contL .postList .tabList li .article .operation dd.curr .star:before {
+	content:"\e60a";
+	color:#fb7191
+}
+ .mainContBox .contL .publishedPosts {
+	background-color:#fbfbfb;
+	border:1px solid #EEE;
+	padding:0 19px 9px
+}
+ .mainContBox .contL .publishedPosts .mainTitle {
+	line-height:70px;
+	font-size:22px;
+	color:#333
+}
+ .mainContBox .contL .publishedPosts .portrait {
+	float:left;
+	width:100px;
+	height:100px;
+	margin-right:15px;
+	overflow:hidden;
+	border-radius:50%
+}
+ .mainContBox .contL .publishedPosts .portrait img {
+	width:100px;
+	height:100%
+}
+ .mainContBox .contL .publishedPosts .publishedFrom {
+	padding-left:137 px;
+}
+ .mainContBox .contL .publishedPosts .publishedFrom>ul {
+	width:635px
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li {
+	font-size:0
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .titleInput, .mainContBox .contL .publishedPosts .publishedFrom li .contInput {
+	background-color:#FFF;
+	border:1px solid #EEE;
+	border-radius:4px;
+	padding:10px 20px;
+	width:587px
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .contInput {
+	border-bottom:0;
+	border-radius:4px 4px 0 0;
+	height:76px;
+	resize:none
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .addBtn {
+	background-color:#f4f4f4;
+	border:1px solid #EEE;
+	border-top:0;
+	border-radius:0 0 4px 4px;
+	line-height:49px;
+	overflow:hidden;
+	width:587px;
+	padding:0 20px;
+	vertical-align:top;
+	font-size:14px;
+	color:#666
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .addBtn .list dd {
+	float:left;
+	margin-right:30px;
+	cursor:pointer
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .addBtn .list dd .icoF {
+	color:#CCC;
+	font-size:18px;
+	margin-right:10px
+}
+ .mainContBox .contL .publishedPosts .publishedFrom li .btn {
+	width:120px;
+	height:40px;
+	background-color:#fb7191;
+	color:#FFF;
+	border-radius:4px;
+	border:0
+}
+ .mainContBox .contR {
+	float:right;
+	width:370px
+}
+ .mainContBox .contR .publicTitle {
+	padding-bottom:20px
+}
+ .mainContBox .contR .publicTitle h3 {
+	line-height:18px;
+	font-size:18px;
+	border-left:5px solid #fb7191;
+	padding-left:20px;
+	color:#333
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow {
+	overflow:hidden
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img {
+	width:180px;
+	background-color:#EEE;
+	position:relative
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img .text {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	font-size:14px;
+	line-height:22px;
+	color:#FFF;
+	padding:20px;
+	background-color:#65dad1;
+	background-color:rgba(251,113,134,.9);
+	display:none
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img .text p {
+	height:44px;
+	overflow:hidden
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img:hover .text {
+	display:block
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img.img03 {
+	margin-top:10px
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img.img04 {
+	margin-top:10px
+}
+ .mainContBox .contR .lmAreWatching .hotImgShow .img img {
+	width:100%;
+	height:100%
+}
+ .mainContBox .contR .lmAreWatching .list {
+	line-height:30px;
+	padding:10px 0;
+	font-size:14px
+}
+ .mainContBox .contR .lmAreWatching .list li {
+	height:30px;
+	overflow:hidden
+}
+ .mainContBox .contR .lmAreWatching .list li .icoF {
+	font-size:20px;
+	text-indent:-7px;
+	display:inline-block;
+	height:6px;
+	vertical-align:-1px;
+	color:#ff9aab;
+	line-height:1
+}
+ .mainContBox .contR .newAddUser .list {
+	overflow:hidden
+}
+ .mainContBox .contR .newAddUser .list ul {
+	width:110%
+}
+ .mainContBox .contR .newAddUser .list ul li {
+	width:62px;
+	height:62px;
+	border-radius:50%;
+	float:left;
+	margin-right:14px;
+	margin-bottom:10px;
+	overflow:hidden
+}
+ .mainContBox .contR .newAddUser .list ul li img {
+	width:100%;
+	height:100%
+}
+ .mainContBox .contR .ranking .list li {
+	padding:10px 0;
+	overflow:hidden
+}
+ .mainContBox .contR .ranking .list li .img {
+	width:65px;
+	height:65px;
+	float:left;
+	margin-right:20px
+}
+ .mainContBox .contR .ranking .list li .img img {
+	width:100%;
+	height:100%
+}
+ .mainContBox .contR .ranking .list li .name {
+	font-size:16px;
+	color:#333;
+	line-height:1
+}
+ .mainContBox .contR .ranking .list li .data {
+	color:#999;
+	overflow:hidden;
+	line-height:30px;
+	padding-top:4px
+}
+ .mainContBox .contR .ranking .list li .data dd {
+	float:left;
+	margin-right:24px
+}
+ .mainContBox .contR .ranking .list li .data dd .icoF {
+	font-size:18px;
+	color:#CCC;
+	margin-right:4px
+}
+ .mainContBox .contR .ranking .list li .news {
+	line-height:1;
+	height:16px;
+	overflow:hidden
+}
+ .mainContBox .contR .ranking .list li .news .icoF {
+	font-size:20px;
+	color:#ff9cad;
+	display:inline-block;
+	text-indent:-7px;
+	vertical-align:-2px
+}
+ .mainContBox .contR .ranking .list li .news a {
+	color:#666
+}
+
+.cGreen {
+    color:#52dcd3
+}
+.cRed {
+    color:#fb7191
+}
+ .topBg {
+	height:435px;
+	background-color:#fbfbfb;
+}
+ .webMapNav {
+	line-height:50px;
+	color:#d1d1d1;
+	font-size:12px
+}
+ .webMapNav .arrows {
+	font-family:宋体;
+	margin:0 10px
+}
+ .webMapNav a {
+	color:#999;
+	font-size:14px
+}
+/*底部开始*/
+.footer{ width:100%; background:#FFF; border-top:#E9E9E9 1px solid; margin-top:15px;}
+.footerIn{width:980px; margin:0 auto; padding-bottom:20px;}
+.footNav{height:40px;text-align:center; padding-top:20px;}
+.footNav a{margin:0 20px; color:#999;}
+.footNav a:hover{color:#ff95b0;}
+.copyright{text-align:center; color:#999; line-height:24px;}
+/*底部结束*/
+/*发表帖子*/
+ .addPostings {
+	width:90px;
+	line-height:40px;
+	height:40px;
+	background-color:#fb7191;
+	text-align:center;
+	color:#FFF;
+	font-size:14px;
+	border-radius:6px;
+}
+/*发表帖子结束*/
+
+ .writeRanking .list li {
+	padding: 10px 0;
+	overflow: hidden
+}
+
+ .writeRanking .list li .img {
+	width: 65px;
+	height: 65px;
+	float: left;
+	margin-right: 20px
+}
+
+ .writeRanking .list li .img img {
+	width: 100%;
+	height: 100%
+}
+
+ .writeRanking .list li .name {
+	font-size: 16px;
+	color: #333;
+	line-height: 1
+}
+
+ .writeRanking .list li .data {
+	color: #999;
+	overflow: hidden;
+	line-height: 30px;
+	padding-top: 4px
+}
+
+ .writeRanking .list li .data dd {
+	float: left;
+	margin-right: 24px
+}
+
+ .writeRanking .list li .data dd .icoF {
+	font-size: 18px;
+	color: #CCC;
+	margin-right: 4px
+}
+
+ .writeRanking .list li .news {
+	line-height: 1;
+	height: 16px;
+	overflow: hidden
+}
+
+ .writeRanking .list li .news .icoF {
+	font-size: 20px;
+	color: #ff9cad;
+	display: inline-block;
+	text-indent: -7px;
+	vertical-align: -2px
+}
+
+ .writeRanking .list li .news a {
+	color: #666
+}
